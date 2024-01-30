@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu_bg{
+    height: 50px;
+    background-color: #F5DF4E;
+}
+.menu_prot a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.menu_bg ul li{
+    padding-left: 25px;
+}
+.menu_bg ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1B1C2B !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.menu_bg ul li a:hover{
+    color: #fff !important;
+    background-color: teal;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+/*--------------------- Banner Part Start --------------------*/
+#banner{
+    background-color: #F5DF4E;
+    padding: 50px 0;
+}
+.ban_text{
+    margin-top: 80px;
+}
+.ban_text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.ban_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.ban_text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.ban_img{
+    background: url(../images/miraz.png) no-repeat center / cover;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/*--------------------- Banner Part end --------------------*/
